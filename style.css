@@ -1,30 +1,128 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: sans-serif;
+}
+#header{
+    font-weight: 330;
+    font-size: 16px;
+    color: #f1f1f1;
+    height: 60px;
+}
+#header2{
+    background-color:#eee;
     width: 100%;
 }
-header{
-    
-    width: 100%;
+#support{
+    color:#5e80f7;
 }
+#search{
+    min-width: 14em;
+    height: 3em;
+    border-radius: 2px;
+    font-size: 12px;
+}
+#collapsedNavbar{
+    margin-right: 35vw;
+}
+.navbar .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 1.1em;
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: #808080;
+}
+@media only screen and (min-width: 960px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+  .dropdown .dropdown-menu {
+    display: none;
+  }
+  .dropdown:hover .dropdown-toggle::after {
+    border-bottom: 0.3em solid;
+    border-top: 0;
+  }
+}
+@media screen and (max-width: 991px) {
+  .dropdown-toggle.show::after {
+    border-top: 0;
+    border-bottom: 0.3em solid;
+  }
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #666;
+    font-size: .9em;
+}
+.dropdown-item:hover {
+    background-color:#259DFF !important;
+    color: white !important;
+}
+.dropdown-item{
+    font-size: 0.9em;
+}
+#announcements{
+    width:100%;
+    background-color: #fdfae6;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+
 #second{
+    position: relative;
+    line-height: 45px;
     color: #aeaeae;
+    box-sizing: border-box;
 }
-#super{
+#Express{
     font-size: 55px;
     font-weight: 10;
 }
+#ExpressLink{
+    font-size: 12px;
+    font-weight: 200;
+}
 #npm{
     color: #555;
+    width: 350px;
+    height: 30px;
+    border-radius: 2px;
+    font-size: 12px;
+    padding: 4px 0 0 4px;
+    font-family: monospace;
+}
+#intro{
+    font-size: 14px;
+    line-height: 23px;
+    color: #555;
+    margin:70px 0;
+
+}
+.above-footer{
+    font-size: 24px;
+    font-weight: 100px;
+    color: #333;
+}
+#star{
+    font-size:11px;
+    font-weight: 700;
+    padding:2px 5px;
+    height: 20px;
+    border-radius: 2px ;
+    background-color: #eee;
+    background-image: linear-gradient (white, gray);
 }
 li{
     list-style: none;
 }
 a{
-    text-decoration: none;
+    text-decoration: none !important;
 }
-#announcements{
-    width:100%
+footer{
+    font-size: 12px;
+    color: #666;
 }
-nav{
-    width: 100%;
+.footercontent{
+    font-size: 8px !important;
 }
