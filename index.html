@@ -8,146 +8,146 @@
     <title>Express - Node.js web application framework</title>
 </head>
 <body>
+      
+  <div class="row m-0 pb-0 container-fluid col-md-12 text-white bg-black text-center" id="header">
+    <p class="pt-2">Black Lives Matter.<br>
+    <a class="text-decoration-none" id="support" href="">Support the Equal Justice Initiative</a>.</p>        
+  </div>
+  <div id="header2">
+  <nav class="navbar navbar-expand-lg col-md-10">
     <div class="container-fluid">
-        
-        <header class="row text-white bg-dark text-center">
-            <p class="">Black Lives Matter.</p>
-            <a class="text-decoration-none" href="">Support the Equal Justice Initiative</a>
-        </header>
-        <nav class="navbar navbar-expand-lg bg-light">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">Express</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <form class="d-flex" role="">
-                            <input class="form-control " type="search" placeholder="🔎 Search" aria-label="Search">
-                        </form>
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Getting started
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Guide
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          API reference
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Advanced topics
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Resources
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </li>
-                    </ul>
+      <div class="container-fluid">
+        <button class="navbar-toggler" id="collapsedNavbar" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand fw-lighter fs-4" href="#">Express</a>
+      </div>
 
-                  </div>
-                </div>
-        </nav>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <form class="" role="search">
+          <input class="form-control  me-2" id="search" type="search" placeholder="🔎 search" aria-label="Search">
+        </form>
         
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-dark fw-bold ms-3" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  </div>
+  <div class="col-md-10 ps-5">
         <div>
-          <div id="super" class="container-fluid fw-lighter">
-            Express
-            <a href="" class="text-decoration-none fs-6">4.18.1</a><br>
-            <span id="second">Fast, unopinionated, minimalist web<br>framework for <a href="" class="text-decoration-none">Node.js</a></span>
+          <div id="Express" class="container-fluid pt-5">
+            <div class="d-none d-lg-block mt-3">Express<a href="" id="ExpressLink">4.18.1</a><br></div>
+            <p id="second">Fast, unopinionated, minimalist web framework for <a href="" class="text-decoration-none">Node.js</a></p>
           </div>
         </div>
 
         <div class="container-fluid">
-            <span id="npm" class="border">$ npm install express --save</span>
+            <span id="npm" class="border d-none d-lg-block"">$ npm install express --save</span>
         </div>
         <br>
-        <section id="announcements" class="container-fluid border bg-warning">
+        <section id="announcements" class="container-fluid border">
           <ul>
             <li>
-            <p class="announcement-title"><img src="./announcement-icon.png" alt="">  Express 5.0 beta documentation is now available.</p>
+            <p class="announcement-title fw-bold"><img src="./announcement-icon.png" alt="">  Express 5.0 beta documentation is now available.</p>
             <p>
             The beta <a href="" class=" text-decoration-none">API documentation</a> is a work in progress. For information on what’s in the release, see the Express <a href="" class=" text-decoration-none">release history</a>.
             </p>
             </li>
           </ul>
         </section>
-        <section id="intro" class="container-fluid my-5">
-          <div id="boxes" class="row mx-4">
+        <section id="intro" class="container-fluid">
+          <div id="boxes" class="row">
           <div id="web-applications" class="col-md-3 col-sm-4">
-          <h3>Web Applications</h3> Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
+          <p class="above-footer">Web Applications</p> Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
           </div>
           <div id="apis" class="col-md-3 col-sm-4">
-          <h3>APIs</h3> With a myriad of HTTP utility methods and middleware at your disposal, creating a robust API is quick and easy.
+          <p class="above-footer">APIs</p> With a myriad of HTTP utility methods and middleware at your disposal, creating a robust API is quick and easy.
           </div>
           <div id="performance" class="col-md-3 col-sm-4">
-          <h3>Performance</h3> Express provides a thin layer of fundamental web application features, without obscuring Node.js features that you know and love.
+          <p class="above-footer">Performance</p> Express provides a thin layer of fundamental web application features, without obscuring Node.js features that you know and love.
           </div>
           <div id="frameworks" class="col-md-3 col-sm-4">
-          <h3>Frameworks</h3> Many <a href="" class="text-decoration-none">popular frameworks</a> are based on Express.
+          <p class="above-footer">Frameworks</p> Many <a href="" class="text-decoration-none">popular frameworks</a> are based on Express.
           </div>
           </div>
-          </section>
-          <footer class="my-5 container-fluid mx-5">
-            <section id="doc-langs">
-            Documentation translations provided by <a href="">StrongLoop/IBM</a>:
-            <a href="">French</a>, <a href="">German</a>, <a href="">Spanish</a>, <a href="">Italian</a>, <a href="">Japanese</a>, <a href="">Russian</a>, <a href="">Chinese</a>, <a href="">Traditional Chinese</a>, <a href="">Korean</a>, <a href="">Portuguese</a>.
-            <br>
-            Community translation available for: <a href="">Slovak</a>, <a href="">Ukrainian</a>, <a href="">Uzbek</a>, <a href="">Turkish</a> and <a href="">Thai</a>.
-            </section>
-            <div id="footer-content">
-            <div id="github">
-            <span></span>
-            </div>
-            <div id="sponsor"><a href="">Express</a> is a project of the <a href="">OpenJS Foundation</a>.</div>
-            <div id="fork"><a href="">Fork the website on GitHub</a>.</div>
-            <div>Copyright © 2017 StrongLoop, IBM, and other expressjs.com contributors.</div>
-            </div>
-            <div id="license">
-            <a rel="license" href=""><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/us/80x15.png"></a> This work is licensed under a <a rel="license" href="">Creative Commons Attribution-ShareAlike 3.0 United States License</a>.
-            </div>
-          </footer>
-
+        </section>
+          
+  </div>
+  <footer class="text-center mb-4 container-fluid">
+    <section id="doc-langs">
+    Documentation translations provided by <a href="">StrongLoop/IBM</a>:
+    <a href="">French</a>, <a href="">German</a>, <a href="">Spanish</a>, <a href="">Italian</a>, <a href="">Japanese</a>, <a href="">Russian</a>, <a href="">Chinese</a>, <a href="">Traditional Chinese</a>, <a href="">Korean</a>, <a href="">Portuguese</a>.
+    <br>
+    Community translation available for: <a href="">Slovak</a>, <a href="">Ukrainian</a>, <a href="">Uzbek</a>, <a href="">Turkish</a> and <a href="">Thai</a>.
+    </section>
+    <div class="footer-content">
+    <div id="footer-content" class="container-fluid ps-5">
+      <div class="row ps-5 pt-4">
+        <a class="col-auto btn border ms-3" id="star" href=""><svg viewBox="0 0 16 16" width="14" height="14"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>&nbsp;<span>Star</span></a>
+        <div id="sponsor" class="col-auto"><a href="">Express</a> is a project of the <a href="">OpenJS Foundation</a>.</div>
+        <div id="fork" class="col-auto"><img src="./fork-icon.png" alt=""><a href="">Fork the website on GitHub</a>.</div>
+        <div class="col-auto">Copyright © 2017 StrongLoop, IBM, and other expressjs.com contributors.</div>
+      </div>
     </div>
+    <div id="license">
+    <a rel="license" href=""><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/us/80x15.png"></a> This work is licensed under a <a rel="license" href="">Creative Commons Attribution-ShareAlike 3.0 United States License</a>.
+    </div>
+    </div>
+  </footer>
+
 </body>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
