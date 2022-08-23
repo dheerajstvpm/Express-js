@@ -1,11 +1,17 @@
 body{
     font-family: sans-serif;
 }
+header{
+    position: fixed;
+    top: 0;
+    width:100%;
+}
 #header{
     font-weight: 330;
     font-size: 16px;
     color: #f1f1f1;
     height: 60px;
+
 }
 #header2{
     background-color:#eee;
@@ -71,20 +77,19 @@ body{
 
 
 #second{
-    position: relative;
     line-height: 45px;
     color: #aeaeae;
-    box-sizing: border-box;
 }
 #Express{
     font-size: 55px;
     font-weight: 10;
+    margin-top: 175px;
 }
 #ExpressLink{
     font-size: 12px;
     font-weight: 200;
 }
-#npm{
+#npm{   
     color: #555;
     width: 350px;
     height: 30px;
@@ -119,6 +124,7 @@ li{
 }
 a{
     text-decoration: none !important;
+    color: #67bdff;
 }
 footer{
     font-size: 12px;
