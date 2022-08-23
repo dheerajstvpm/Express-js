@@ -16,6 +16,15 @@ header{
 #header2{
     background-color:#eee;
     width: 100%;
+    border-bottom:1px solid #ddd;
+}
+nav{
+    white-space: nowrap;
+}
+#navbar-brand{
+    font-weight:100;
+    font-size: 26px;
+    color: #444;
 }
 #support{
     color:#5e80f7;
@@ -132,4 +141,23 @@ footer{
 }
 .footercontent{
     font-size: 8px !important;
+}
+@media all and (max-width:975px){
+    #second{
+        font-size: 32px;
+        margin: -50px 0;
+    }
+    #search{
+        display: none;
+    }
+    #Home{
+        display: none;
+    }
+    #navbar-brand{
+        font-weight:700 !important;
+        color: #444;
+    }
+    #Express1{
+        display: none;
+    }
 }
