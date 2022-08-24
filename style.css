@@ -76,6 +76,7 @@ nav{
 .dropdown-item{
     font-size: 0.9em;
 }
+
 #announcements{
     width:100%;
     background-color: #fdfae6;
@@ -83,8 +84,6 @@ nav{
     padding-top: 10px;
     padding-left: 0;
 }
-
-
 #second{
     line-height: 45px;
     color: #aeaeae;
@@ -142,10 +141,23 @@ footer{
 .footercontent{
     font-size: 8px !important;
 }
+#top {
+    position:fixed;
+    bottom:20px;
+    right: 20px;
+    width: 25px;
+    height: 20px;
+    border-radius: 2px;
+    background-color: #999;
+}
+#top:hover{
+    background-color: #000;  
+}
 @media all and (max-width:975px){
     #second{
         font-size: 32px;
-        margin: -50px 0;
+        line-height: 30px;
+        margin: -30px 0;
     }
     #search{
         display: none;
