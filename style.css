@@ -38,9 +38,10 @@ nav{
 #collapsedNavbar{
     margin-right: 35vw;
 }
+
 .navbar .navbar-nav .nav-link {
-    color: #000000;
-    font-size: 1.1em;
+    color: #666;
+    font-size: .9em;
 }
 .navbar .navbar-nav .nav-link:hover{
     color: #808080;
@@ -53,22 +54,8 @@ nav{
   .dropdown .dropdown-menu {
     display: none;
   }
-  .dropdown:hover .dropdown-toggle::after {
-    border-bottom: 0.3em solid;
-    border-top: 0;
-  }
-}
-@media screen and (max-width: 991px) {
-  .dropdown-toggle.show::after {
-    border-top: 0;
-    border-bottom: 0.3em solid;
-  }
 }
 
-.navbar .navbar-nav .nav-link {
-    color: #666;
-    font-size: .9em;
-}
 .dropdown-item:hover {
     background-color:#259DFF !important;
     color: white !important;
